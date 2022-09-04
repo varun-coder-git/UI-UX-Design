@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+.mat-chip.mat-standard-chip {
+    background-color: #ffffff !important;
+    color: rgba(0,0,0,.87) !important;
+    border: 1px solid #00b8e6;
+}
+mat-nav-list.list-horizontal {
+    display: flex;
+    flex-direction: row;
+   }
