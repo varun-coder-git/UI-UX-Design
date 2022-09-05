@@ -81,12 +81,25 @@
 
 .icon-bar a.active{
     background: #328eea;
+    border: 2px solid #328eea;
 }
 
 .icon-bar a:hover{
-    background: #205a95;
+    background: #328eea;
 }
 a{
   text-decoration: none;
     color: white;
+}
+
+.pointer{
+  width: 0;
+  height: 0;
+  border-left: 54px solid transparent;
+  border-right: 49px solid transparent;
+  border-top: 31px solid #328eea;
+  margin-left: 863px;
+  top: 134px;
+  position: absolute;
+
 }
