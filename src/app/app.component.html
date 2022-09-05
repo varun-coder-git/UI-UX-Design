@@ -4,12 +4,12 @@
  
     <span class="example-spacer"></span>
     <mat-chip-list style="float: right;padding:5px;">
-      <mat-chip>
-        <mat-icon style="color:#0080ff ;">help</mat-icon>
+      <mat-chip style="background-color: white !important;color:#000 !important;font-size:10px !important;min-height: 25px !important; margin-right: 10px !important;">
+        <mat-icon style="color:#146fca ;font-size: 16px;padding-top: 4px;">help</mat-icon>
        Add Guest
       </mat-chip>
-      <mat-chip color="primary">
-        <mat-icon style="color:#0080ff ;">account_circle</mat-icon>
+      <mat-chip style="background-color: white !important;color:#000 !important;font-size:10px !important;min-height: 25px !important; margin-right: 10px !important;">
+        <mat-icon style="color:#146fca ;font-size: 16px;padding-top: 4px;">account_circle</mat-icon>
       Add Guest
       </mat-chip>
    
@@ -23,50 +23,35 @@
 
 
     <div class="row" style="width: 100%;">
-      <div class="col-2">
+      <div class="col-2 mt-4">
         <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-          <mat-icon style="color:#ffffff;"> sentiment_satisfied_alt</mat-icon>
+          <mat-icon style="color:#ffffff;font-size: 22px;"> sentiment_satisfied_alt</mat-icon>
         </button>
-        <span style="color:#ffffff;">Memories</span>
+        <span style="color:#ffffff;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: large;vertical-align: -4px;">Memories</span>
       </div>
-      <div class="col-7">
-        <mat-nav-list class="list-horizontal">
-          <mat-list-item>
-         
-            <div mat-line style="color:#ffffff;"><mat-icon mat-list-icon style="color:#ffffff;"> home</mat-icon><div>Home</div></div>
-          </mat-list-item>
-          <mat-list-item>
-            <a href style="color:#ffffff;"><mat-icon mat-list-icon style="color:#ffffff;"> home</mat-icon><div>Journal</div></a>
-          </mat-list-item>
-          <mat-list-item>
-            <a href style="color:#ffffff;"><mat-icon mat-list-icon style="color:#ffffff;"> favorite_border</mat-icon><div>Life Story</div></a>
-          </mat-list-item>
-          <mat-list-item>
-            <a href style="color:#ffffff;"><mat-icon mat-list-icon style="color:#ffffff;"> list_alt</mat-icon><div>Diary</div></a>
-          </mat-list-item>
-          <mat-list-item>
-            <a href style="color:#ffffff;"><mat-icon mat-list-icon style="color:#ffffff;"> group</mat-icon><div>Family Tree</div></a>
-          </mat-list-item>
-          <mat-list-item>
-            <a href style="color:#ffffff;"><mat-icon mat-list-icon style="color:#ffffff;"> date_range</mat-icon><div>Calendar</div></a>
-          </mat-list-item>
-          <mat-list-item>
-            <a href style="color:#ffffff;"><mat-icon mat-list-icon style="color:#ffffff;"> home</mat-icon><div>Wishlist</div></a>
-          </mat-list-item>
-          <mat-list-item>
-            <a href style="color:#ffffff;"><mat-icon mat-list-icon style="color:#ffffff;"> home</mat-icon><div>Documents</div></a>
-          </mat-list-item>
-        </mat-nav-list>
+      <div class="col-8">
+   
+
+        <div class="icon-bar">
+          <a class="active" href="#"><mat-icon mat-list-icon style="color:#ffffff;"> home</mat-icon><div style="font-size:12px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Home</div></a> 
+          <a href="#"><mat-icon mat-list-icon style="color:#ffffff;"> assignment</mat-icon><div style="font-size:12px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Journal</div></a> 
+          <a href="#"><mat-icon mat-list-icon style="color:#ffffff;"> favorite</mat-icon><div style="font-size:12px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Life Story</div></a> 
+          <a href="#"><mat-icon mat-list-icon style="color:#ffffff;"> list_alt</mat-icon><div style="font-size:12px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Diary</div></a>
+          <a href="#"><mat-icon mat-list-icon style="color:#ffffff;"> date_range</mat-icon><div style="font-size:12px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Calendar</div></a> 
+          <a href="#"><mat-icon mat-list-icon style="color:#ffffff;"> group</mat-icon><div style="font-size:12px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Family Tree</div></a> 
+          <a href="#"><mat-icon mat-list-icon style="color:#ffffff;"> favorite_border</mat-icon><div style="font-size:12px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Wishlist</div></a>
+          <a href="#"><mat-icon mat-list-icon style="color:#ffffff;"> description</mat-icon><div style="font-size:12px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Documents</div></a>
+       </div>
       </div>
-      <div class="col-2 pt-4">
-        <span class="ml-2" style="padding:25px">    <mat-icon style="color:#ffffff;" matBadge="5" matBadgeColor="warn">notifications</mat-icon></span>
-        <span class="ml-2" style="padding:25px"> <mat-icon style="color:#ffffff;" matBadge="7" matBadgeColor="warn">message</mat-icon></span>
+      <div class="col-1 mt-4 pr-4" style="margin-top: 20px !important;text-align: left;">
+        <span class="" style="padding:20px">    <mat-icon style="color:#ffffff;" matBadge="5" matBadgeColor="warn">notifications</mat-icon></span>
+        <span class="" style="padding:20px"> <mat-icon style="color:#ffffff;" matBadge="7" matBadgeColor="warn">message</mat-icon></span>
       </div>
         <!-- Include text description of the icon's meaning for screen-readers -->
-        <div class="col-1" style="text-align: center;">
+        <div class="col-1 mt-3" style="text-align: center;">
        
           <div><img  style=" border-radius: 100%;border: 3px solid white;" src='https://www.himalmag.com/wp-content/uploads/2019/07/sample-profile-picture.png' width="40px"/></div>
-        <div style="font-size:10px;color:white;">Alfred Charles</div>
+        <div style="font-size:10px;color:white;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Alfred Charles</div>
       
        
       </div>
@@ -125,7 +110,7 @@
                   <img matChipAvatar src='https://www.himalmag.com/wp-content/uploads/2019/07/sample-profile-picture.png' width="40px" style="padding-top: 10px;"/>
                 </div>
                 <div class="col-9">
-                  <p class="mt-3 mb-0">Samantha Yatovitz</p>
+                  <p class="mt-3 mb-0" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:small; font-weight:400;">Samantha Yatovitz</p>
                   <h6 class="mt-0">Sister</h6>
                 </div>
               </div>
@@ -154,7 +139,7 @@
                   <img matChipAvatar src='https://www.himalmag.com/wp-content/uploads/2019/07/sample-profile-picture.png' width="40px" style="padding-top: 10px;"/>
                 </div>
                 <div class="col-9">
-                  <p class="mt-3 mb-0">Samantha Yatovitz</p>
+                  <p class="mt-3 mb-0" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:small; font-weight:400;">Samantha Yatovitz</p>
                   <h6 class="mt-0">Sister</h6>
                 </div>
               </div>
@@ -183,7 +168,7 @@
                   <img matChipAvatar src='https://www.himalmag.com/wp-content/uploads/2019/07/sample-profile-picture.png' width="40px" style="padding-top: 10px;"/>
                 </div>
                 <div class="col-9">
-                  <p class="mt-3 mb-0">Samantha Yatovitz</p>
+                  <p class="mt-3 mb-0" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:small; font-weight:400;">Samantha Yatovitz</p>
                   <h6 class="mt-0">Sister</h6>
                 </div>
               </div>

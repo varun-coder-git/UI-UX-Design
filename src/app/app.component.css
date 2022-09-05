@@ -38,7 +38,8 @@
     border: none;
     border-radius: 1.625rem;
     padding: 0 3.5rem 0 1.5rem;
-    font-size: 1rem;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   #searchQuerySubmit {
@@ -53,3 +54,39 @@
   #searchQuerySubmit:hover {
     cursor: pointer;
   }
+  body{
+    margin: 0;
+    padding: 0;
+}
+.icon-bar{
+    width: 100%;
+    background: #146fca;
+    overflow: auto;
+}
+
+.icon-bar i{
+    color: #fff;
+    font-size: larger;
+}
+
+.icon-bar a{
+    padding:  15px 0;
+    float: left;
+    width: 12%; 
+    text-align: center;
+    box-sizing: border-box;
+    transition: all .3s;
+    
+}
+
+.icon-bar a.active{
+    background: #328eea;
+}
+
+.icon-bar a:hover{
+    background: #205a95;
+}
+a{
+  text-decoration: none;
+    color: white;
+}
