@@ -1,0 +1,105 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+ .mat-card{
+    border-radius: 20px !important;
+ }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    
+  }
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+
+  
+  .label {
+    font-size: .625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: +1.3px;
+    margin-bottom: 1rem;
+  }
+  
+  .searchBar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  #searchQueryInput {
+    width: 100%;
+    height: 1.8rem;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 1.625rem;
+    padding: 0 3.5rem 0 1.5rem;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #searchQuerySubmit {
+    width: 3.5rem;
+    height: 2.8rem;
+    margin-left: -3.5rem;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  #searchQuerySubmit:hover {
+    cursor: pointer;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+}
+.icon-bar{
+    width: 100%;
+    background: #146fca;
+    overflow: auto;
+}
+
+.icon-bar i{
+    color: #fff;
+    font-size: larger;
+}
+
+.icon-bar a{
+    padding:  15px 0;
+    float: left;
+    width: 12%; 
+    text-align: center;
+    box-sizing: border-box;
+    transition: all .3s;
+    
+}
+
+.icon-bar a.active{
+    background: #328eea;
+    border: 2px solid #328eea;
+}
+
+.icon-bar a:hover{
+    background: #328eea;
+}
+a{
+  text-decoration: none;
+    color: white;
+}
+
+.pointer{
+  width: 0;
+  height: 0;
+  border-left: 54px solid transparent;
+  border-right: 49px solid transparent;
+  border-top: 31px solid #328eea;
+  margin-left: 863px;
+  top: 134px;
+  position: absolute;
+
+}
